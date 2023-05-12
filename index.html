@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ripe Onions</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+  <!--Bootstrap style-->
+  <div class="container">
+    <span id="rateMe2" class="empty-stars"></span>
+  </div>
+
+  <!-- rating.js file -->
+  <script src="js/addons/rating.js"></script>
+  <body class="container">
+    <div id="new-destination" class="jumbotron jumbotron-fluid">
+      <div class="jumbotron">
+        <h1 class="display-4">Ripe Onions Movie reviews</h1>
+        <p class="lead">Cast ratings, and review movies</p>
+        <hr class="my-4" />
+        <p>Like us on Facebook, Instagram, or Youtube!</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Follow us on Facebook</a
+          >
+          <span id="rateMe2" class="empty-stars"></span>
+        </p>
+      </div>
+      <!-- CSS stle below-->
+      <center>
+        <h1 style="color: rgb(0, 255, 136)">Ripe Onions Review-O-Meter</h1>
+      </center>
+      <h2>New Super Mario Bros. Movie</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUb4H9ziB1NcM0RZgNpzu2JbEzbLmNsgOZFA&usqp=CAU"
+      />
+
+      <!-- rating.js file -->
+      <script src="js/addons/rating.js"></script>
+      <input type="text" id="new-destination-name" class="form-control" />
+      <br />
+      <button id="create-new-place" class="btn btn-primary form-control">
+        Add Rating
+      </button>
+    </div>
+
+    <div id="app">
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="index.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </div>
+  </body>
+</html>
